@@ -1,9 +1,4 @@
 ﻿using CleanUser.ApplicationCore.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanUser.ApplicationCore.Interfaces
 {
@@ -17,7 +12,6 @@ namespace CleanUser.ApplicationCore.Interfaces
 
         UserResponse CreateUser(CreateUserRequest request);
 
-        // UserResponse UpdateUser(int userId, UpdateUserRequest request);
         UserResponse UpdateUser(int userId, CreateUserRequest request);
     }
 }
